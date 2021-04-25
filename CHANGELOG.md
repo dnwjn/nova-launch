@@ -13,8 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Linting functionality with PHP-CS-Fixer.
 - [CHANGELOG], [LICENSE] and [README].
 
-[Unreleased]: https://github.com/dnwjn/nova-launch/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/dnwjn/nova-launch/releases/tag/v1.0.0
+[Unreleased]: https://github.com/dnwjn/nova-launch/compare/1.0.0...HEAD
+[1.0.0]: https://github.com/dnwjn/nova-launch/releases/tag/1.0.0
 [CHANGELOG]: CHANGELOG.md
 [LICENSE]: LICENSE.md
 [README]: README.md
