@@ -1,0 +1,25 @@
+name: Lint & Fix
+
+on: [push]
+
+jobs:
+    style:
+        runs-on: ubuntu-latest
+
+        steps:
+            -   name: Checkout code
+                uses: actions/checkout@v2
+
+            -   name: Lint and fix
+                uses: OskarStark/php-cs-fixer-ga@2.18.5
+
+            -   name: Extract branch name
+                shell: bash
+                run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+                id: extract_branch
+
+            -   name: Commit changes
+                uses: stefanzweifel/git-auto-commit-action@v4.10.0
+                with:
+                    commit_message: Fixed styling
+                    branch: ${{ steps.extract_branch.outputs.branch }}

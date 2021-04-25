@@ -1,0 +1,13 @@
+{
+    "novaLaunch.saveSettings": "Instellingen opslaan",
+    "novaLaunch.readyToLaunch": "Ben je klaar voor lancering?",
+    "novaLaunch.whatWillHappen": "Zodra je op \"LANCEER!\" klikt zal het volgende gebeuren:",
+    "novaLaunch.signUpPageRemoved": "De aanmeldpagina zal worden uitgeschakeld, waardoor de volledige website beschikbaar wordt voor bezoekers.",
+    "novaLaunch.extraActions": "Extra acties worden uitgevoerd aan de hand van de configuratie.",
+    "novaLaunch.redirectedAndPluginDisabled": "Jij wordt doorgestuurd naar het admin dashboard en deze plugin zal worden uitgeschakeld.",
+    "novaLaunch.goLive": "LANCEER!",
+    "novaLaunch.statistics": "Statistieken",
+    "novaLaunch.currentSignups": "Huidige aanmeldingen:",
+    "novaLaunch.confirmWithPassword": "Vul je wachtwoord in om de lancering te autoriseren:",
+    "novaLaunch.siteLaunched": "De site is gelanceerd!"
+}

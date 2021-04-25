@@ -1,0 +1,13 @@
+{
+    "novaLaunch.saveSettings": "Save settings",
+    "novaLaunch.readyToLaunch": "Are you ready to launch?",
+    "novaLaunch.whatWillHappen": "When you click on \"LAUNCH!\" below the following will happen:",
+    "novaLaunch.signUpPageRemoved": "The sign up page will be disabled, making the full website accessible to visitors.",
+    "novaLaunch.extraActions": "Extra actions will be executed based on the configuration.",
+    "novaLaunch.redirectedAndPluginDisabled": "You will be redirected to the admin dashboard and this plugin will be disabled.",
+    "novaLaunch.goLive": "LAUNCH!",
+    "novaLaunch.statistics": "Statistics",
+    "novaLaunch.currentSignups": "Current signups:",
+    "novaLaunch.confirmWithPassword": "Please enter your password to authorize the launch:",
+    "novaLaunch.siteLaunched": "The site has been launched!"
+}

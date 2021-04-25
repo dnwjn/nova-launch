@@ -1,0 +1,64 @@
+{
+    "name": "dnwjn/nova-launch",
+    "description": "A Laravel Nova tool for the pre-launch and launch phases of your website.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "launch"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Danique Wijnalda",
+            "email": "hello@dnwjn.dev",
+            "homepage": "https://dnwjn.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5|^8.0",
+        "bensampo/laravel-enum": "^2.0|^3.0",
+        "illuminate/auth": "^5.8|^6.0|^7.0|^8.0",
+        "illuminate/container": "^5.8|^6.0|^7.0|^8.0",
+        "illuminate/contracts": "^5.8|^6.0|^7.0|^8.0",
+        "illuminate/database": "^5.8|^6.0|^7.0|^8.0",
+        "illuminate/events": "^5.8|^6.0|^7.0|^8.0",
+        "laravel/framework": "^5.8|^6.0|^7.0|^8.0",
+        "laravel/nova": "^2.0|^3.0",
+        "optimistdigital/nova-translations-loader": "^2.0|^3.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.0",
+        "orchestra/testbench": "^5.0|6.0",
+        "phpunit/phpunit": "^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dnwjn\\NovaLaunch\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dnwjn\\NovaLaunch\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dnwjn\\NovaLaunch\\NovaLaunchServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "lint": "vendor/bin/php-cs-fixer fix --allow-risky=yes",
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
