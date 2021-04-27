@@ -1,5 +1,7 @@
 # nova-launch
 
+[![Latest Stable Version](https://poser.pugx.org/dnwjn/nova-launch/v)](//packagist.org/packages/dnwjn/nova-launch) [![Total Downloads](https://poser.pugx.org/dnwjn/nova-launch/downloads)](//packagist.org/packages/dnwjn/nova-launch) [![Latest Unstable Version](https://poser.pugx.org/dnwjn/nova-launch/v/unstable)](//packagist.org/packages/dnwjn/nova-launch) [![License](https://poser.pugx.org/dnwjn/nova-launch/license)](//packagist.org/packages/dnwjn/nova-launch)
+
 **nova-launch** is a Laravel Nova tool for the pre-launch and launch phases of your website.
 It redirects visitors, allows bypasses and launches your website whenever you say the word.
 
